@@ -1,0 +1,74 @@
+* {
+    font-family: 'Cambria Math';
+    color: black;
+}
+
+caption {
+    font-size: 25px;
+    text-align: left;
+}
+p {
+    font-size: 20px;
+}
+#hmain {
+    text-align: center;
+}
+#dmain {
+    margin: auto;
+    padding: 5px;
+    width: 50%;
+    height: 750px;
+    border: 2px double black;
+    
+}
+#dtext {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#lachieve {
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#rachieve {
+    margin-left: 1%;
+    margin-right: 650px;
+    float: right;
+}
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: black;
+    text-decoration: underline;
+}
+
+#projecttable tr:nth-child(even) {
+    background-color: #b3b3b3;
+}
+#projecttable tr:nth-child(odd) {
+    background-color: #d9d9d9;
+}
+#projecttable th {
+
+    background-color: black;
+    color: #e6e6e6;
+    padding: 7.5px;
+    text-align: left;
+}
+#projecttable td {
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 7.5px;
+    text-align: left;
+}
+#projecttable {
+    width: 97.5%;
+    border-collapse:collapse;
+    margin-left: 1.25%;
+}
+
+.threeheader {
+    margin-left: 1%;
+}
